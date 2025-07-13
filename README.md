@@ -4,6 +4,8 @@ Comparing VueJS and SolidJS reactivity systems in NodeJS (for backend)
 
 **Conclusion**: SolidJS approach is significantly faster (~30x) than VueJS approach, mostly due to the Proxy overhead in VueJS. However, VueJS offers a more user-friendly way to track deep changes in objects with less boilerplate. Also, C++ implementation of Solid-like reactivity system is just 1.5x faster than the original SolidJS package in NodeJS.
 
+![Vue vs Solid](./chart.svg)
+
 ---
 
 ## Vue VS Solid
